@@ -1,4 +1,4 @@
-# Homework 5: Howler
+# Howler
 
 Assignment implementing a simple authenticated website with a small frontend and backend using JWTs. For this assignment, I chose to build upon my Howler application from the previous homework assignment. Navigate to the main html files for this assignment below:
 
