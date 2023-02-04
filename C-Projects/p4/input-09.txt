@@ -1,0 +1,9 @@
+list
+list skill Sales
+assign 3987 MaxRealty
+assign 4067 MaxRealty
+assign 2870 MaxRealty
+list assignment MaxRealty
+unassign 2870
+list assignment MaxRealty
+quit

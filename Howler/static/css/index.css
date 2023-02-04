@@ -1,0 +1,39 @@
+main {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-box {
+    border: solid black 2px;
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 300px;
+    min-height: 180px;
+    width: 60vw;
+    height: 15vh;
+    padding: 2vh;
+    margin-bottom: 4vh;
+}
+
+.post-box textarea {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2%;
+    padding: 7px;
+    resize: none;
+    border-radius: 7px;
+}
+
+#howl-button {
+    background-color: #CC0000;
+    color: white;
+    border-radius: 10px;
+}
+
+#howl-button:hover {
+    background-color: #EE0000;
+}

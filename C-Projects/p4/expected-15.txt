@@ -1,0 +1,16 @@
+cmd> list skill Collections
+ID   First Name      Last Name       Skill           Assignment
+
+cmd> list assignment JobMarket
+ID   First Name      Last Name       Skill           Assignment
+
+cmd> list Available
+Invalid command
+
+cmd> list Nothing
+Invalid command
+
+cmd> list assignment Available 123
+Invalid command
+
+cmd> quit

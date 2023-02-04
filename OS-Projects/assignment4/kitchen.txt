@@ -1,0 +1,17 @@
+Assignment 4 Problem 3 Deadlock Prevention Methods Report:
+Christopher Fields
+
+1) Global.java (only one chef can cook at a time)
+    - Dishes Prepared: 335
+    - Minimum Dishes by any Chef: 20
+    - Maximum Dishes by any Chef: 38
+
+2) Ordered.java (appliances must be used in a certain order)
+    - Dishes Prepared: 862
+    - Minimum Dishes by any Chef: 28
+    - Maximum Dishes by any Chef: 262
+
+3) TakeAll.java (all appliances must be available to start cooking)
+    - Dishes Prepared: 1044
+    - Minimum Dishes by any Chef: 24
+    - Maximum Dishes by any Chef: 275

@@ -1,0 +1,59 @@
+cmd> assign 1661 CoalCo
+
+cmd> assign 2800 SalonWorks
+
+cmd> assign 2695 JohnsonLabs
+
+cmd> assign 1675 JohnsonLabs
+
+cmd> assign 9743 MeatMarket
+
+cmd> assign 1234 TaxPros
+
+cmd> assign 2785 CoalCo
+
+cmd> assign 3355 AnimalHospital
+
+cmd> assign 5482 AnimalHospital
+
+cmd> assign 3072 JohnsonLabs
+
+cmd> assign 2894 SalonWorks
+
+cmd> assign 5402 SalonWorks
+
+cmd> assign 8533 MeatMarket
+
+cmd> assign 3290 MeatMarket
+
+cmd> unassign 2800
+
+cmd> unassign 2785
+
+cmd> list assignment CoalCo
+ID   First Name      Last Name       Skill           Assignment
+1661 Aimee           Pennington      miner           CoalCo              
+
+cmd> list assignment JohnsonLabs
+ID   First Name      Last Name       Skill           Assignment
+2695 Inge            Daugherty       biologist       JohnsonLabs         
+3072 Jenifer         Chavez          biologist       JohnsonLabs         
+1675 Rhea            Velazquez       scientist       JohnsonLabs         
+
+cmd> list assignment SalonWorks
+ID   First Name      Last Name       Skill           Assignment
+5402 Shelly          Middleton       hairdresser     SalonWorks          
+2894 Elmer           Gordon          receptionist    SalonWorks          
+
+cmd> list assignment AnimalHospital
+ID   First Name      Last Name       Skill           Assignment
+3355 Carrol          Kim             vet             AnimalHospital      
+5482 Latisha         Marquez         vet             AnimalHospital      
+
+cmd> list assignment MeatMarket
+ID   First Name      Last Name       Skill           Assignment
+3290 Karolyn         Finley          butcher         MeatMarket          
+8533 Velma           Huynh           butcher         MeatMarket          
+9743 Francisca       Garrison        butcher         MeatMarket          
+
+cmd> quit

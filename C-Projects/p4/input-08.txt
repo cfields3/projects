@@ -1,0 +1,12 @@
+assign 0337 TaxPros
+assign 2335 GardenShop
+assign 1234 TaxPros
+assign 1945 MaxRealty
+assign 9012 FurnitureMarket
+assign 2334 FoodGiant
+assign 8097 MaxRealty
+unassign 1234
+unassign 9012
+unassign 2335
+list
+quit

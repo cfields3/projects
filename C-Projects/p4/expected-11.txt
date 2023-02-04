@@ -1,0 +1,36 @@
+cmd> assign 1661 CoalCo
+
+cmd> assign 2800 SalonWorks
+
+cmd> assign 2695 JohnsonLabs
+
+cmd> assign 1675 JohnsonLabs
+
+cmd> assign 1234 TaxPros
+
+cmd> assign 2785 CoalCo
+
+cmd> assign 3072 JohnsonLabs
+
+cmd> assign 2894 SalonWorks
+
+cmd> assign 5402 SalonWorks
+
+cmd> list assignment CoalCo
+ID   First Name      Last Name       Skill           Assignment
+1661 Aimee           Pennington      miner           CoalCo              
+2785 Zoila           Aguirre         miner           CoalCo              
+
+cmd> list assignment JohnsonLabs
+ID   First Name      Last Name       Skill           Assignment
+2695 Inge            Daugherty       biologist       JohnsonLabs         
+3072 Jenifer         Chavez          biologist       JohnsonLabs         
+1675 Rhea            Velazquez       scientist       JohnsonLabs         
+
+cmd> list assignment SalonWorks
+ID   First Name      Last Name       Skill           Assignment
+2800 Mallory         Deleon          hairdresser     SalonWorks          
+5402 Shelly          Middleton       hairdresser     SalonWorks          
+2894 Elmer           Gordon          receptionist    SalonWorks          
+
+cmd> quit

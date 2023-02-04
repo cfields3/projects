@@ -1,0 +1,6 @@
+alpha
+zones
+exits
+traps
+terms
+terns

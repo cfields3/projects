@@ -1,0 +1,13 @@
+list skill Administration
+list assignment Available
+assign 2334 CarShoppe
+assign 4100 CarShoppe
+assign 6754 CarShoppe
+assign 0165 TaxPros
+list
+list skill IT
+unassign 4100
+assign 4100 TaxPros
+list
+list assignment CarShoppe
+quit

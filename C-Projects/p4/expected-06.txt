@@ -1,0 +1,24 @@
+cmd> list assignment Available
+ID   First Name      Last Name       Skill           Assignment
+0165 Phillip         Sanders         Accounting      Available           
+0337 Timothy         Donnelly        Accounting      Available           
+1945 Maria           Gilligan        Administration  Available           
+3987 Nancy           Clyburn         Administration  Available           
+5678 Alice           Chang           Administration  Available           
+9665 Jenny           Chavez          Administration  Available           
+1234 Jessica         Strong          IT              Available           
+3567 Don             Hernandez       IT              Available           
+4100 Jill            Brothers        IT              Available           
+5912 Alex            Smothers        IT              Available           
+9873 Mary            Chavez          IT              Available           
+8097 Lisa            Dominguez       Marketing       Available           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+2334 James           Bush            Sales           Available           
+2870 Bonnie          Jones           Sales           Available           
+3988 Jerry           Johnson         Sales           Available           
+4067 Jack            Patel           Sales           Available           
+6754 Bob             Lucas           Sales           Available           
+7145 Margaret        Sutton          Sales           Available           
+
+cmd> quit

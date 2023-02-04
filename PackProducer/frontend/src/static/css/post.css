@@ -1,0 +1,38 @@
+.title {
+    margin-top: 5px;
+    display: block;
+}
+
+.post-creator {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px 20px;
+    width: 80%;
+    max-width: 700px;
+    height: 500px;
+    margin: 25px 2vw;
+}
+
+.post-attribute {
+    margin-bottom: 20px;
+}
+
+.post-attribute p { 
+    margin-bottom: 7px;
+}
+
+.textbox {
+    width: 100%;
+}
+
+.checkbox {
+    margin-right: 7px;
+}
+
+#submit-post {
+    display: block;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16pt;
+}

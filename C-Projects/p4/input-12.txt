@@ -1,0 +1,22 @@
+assign 1661 CoalCo
+assign 2800 SalonWorks
+assign 2695 JohnsonLabs
+assign 1675 JohnsonLabs
+assign 9743 MeatMarket
+assign 1234 TaxPros
+assign 2785 CoalCo
+assign 3355 AnimalHospital
+assign 5482 AnimalHospital
+assign 3072 JohnsonLabs
+assign 2894 SalonWorks
+assign 5402 SalonWorks
+assign 8533 MeatMarket
+assign 3290 MeatMarket
+unassign 2800
+unassign 2785
+list assignment CoalCo
+list assignment JohnsonLabs
+list assignment SalonWorks
+list assignment AnimalHospital
+list assignment MeatMarket
+quit

@@ -1,0 +1,54 @@
+#howls-list, #user-howls-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.howl {
+    border: solid lightgray 2px;
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 100px;
+    width: 60vw;
+    padding: 2vh;
+    margin: 1vh;
+    overflow: auto;
+}
+
+.user-and-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.name {
+    font-size: 15pt;
+    color: black;
+    margin: 7px;
+}
+
+.username {
+    font-size: 12pt;
+    color: lightslategray;
+    margin: 7px 7px 7px 0px;
+}
+
+.user img {
+    height: 3vh;
+    width: 3vh;
+    border: solid gray 2px;
+    border-radius: 50%;
+}
+
+.text {
+    margin: 10px 5px;
+}

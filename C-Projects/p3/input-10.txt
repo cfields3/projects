@@ -1,0 +1,6 @@
+aaaaa
+baaaa
+bbaaa
+aabbb
+abbab
+quit

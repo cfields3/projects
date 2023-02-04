@@ -1,0 +1,105 @@
+cmd> list skill Administration
+ID   First Name      Last Name       Skill           Assignment
+1945 Maria           Gilligan        Administration  Available           
+3987 Nancy           Clyburn         Administration  Available           
+5678 Alice           Chang           Administration  Available           
+9665 Jenny           Chavez          Administration  Available           
+
+cmd> list assignment Available
+ID   First Name      Last Name       Skill           Assignment
+0165 Phillip         Sanders         Accounting      Available           
+0337 Timothy         Donnelly        Accounting      Available           
+2478 Thomas          Sterling        Accounting      Available           
+1945 Maria           Gilligan        Administration  Available           
+3987 Nancy           Clyburn         Administration  Available           
+5678 Alice           Chang           Administration  Available           
+9665 Jenny           Chavez          Administration  Available           
+1234 Jessica         Strong          IT              Available           
+3567 Don             Hernandez       IT              Available           
+4100 Jill            Brothers        IT              Available           
+5912 Alex            Smothers        IT              Available           
+9873 Mary            Chavez          IT              Available           
+8097 Lisa            Dominguez       Marketing       Available           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+2334 James           Bush            Sales           Available           
+2870 Bonnie          Jones           Sales           Available           
+3988 Jerry           Johnson         Sales           Available           
+4067 Jack            Patel           Sales           Available           
+6754 Bob             Lucas           Sales           Available           
+7145 Margaret        Sutton          Sales           Available           
+
+cmd> assign 2334 CarShoppe
+
+cmd> assign 4100 CarShoppe
+
+cmd> assign 6754 CarShoppe
+
+cmd> assign 0165 TaxPros
+
+cmd> list
+ID   First Name      Last Name       Skill           Assignment
+0165 Phillip         Sanders         Accounting      TaxPros             
+0337 Timothy         Donnelly        Accounting      Available           
+1234 Jessica         Strong          IT              Available           
+1945 Maria           Gilligan        Administration  Available           
+2334 James           Bush            Sales           CarShoppe           
+2478 Thomas          Sterling        Accounting      Available           
+2870 Bonnie          Jones           Sales           Available           
+3567 Don             Hernandez       IT              Available           
+3987 Nancy           Clyburn         Administration  Available           
+3988 Jerry           Johnson         Sales           Available           
+4067 Jack            Patel           Sales           Available           
+4100 Jill            Brothers        IT              CarShoppe           
+5678 Alice           Chang           Administration  Available           
+5912 Alex            Smothers        IT              Available           
+6754 Bob             Lucas           Sales           CarShoppe           
+7145 Margaret        Sutton          Sales           Available           
+8097 Lisa            Dominguez       Marketing       Available           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+9665 Jenny           Chavez          Administration  Available           
+9873 Mary            Chavez          IT              Available           
+
+cmd> list skill IT
+ID   First Name      Last Name       Skill           Assignment
+1234 Jessica         Strong          IT              Available           
+3567 Don             Hernandez       IT              Available           
+4100 Jill            Brothers        IT              CarShoppe           
+5912 Alex            Smothers        IT              Available           
+9873 Mary            Chavez          IT              Available           
+
+cmd> unassign 4100
+
+cmd> assign 4100 TaxPros
+
+cmd> list
+ID   First Name      Last Name       Skill           Assignment
+0165 Phillip         Sanders         Accounting      TaxPros             
+0337 Timothy         Donnelly        Accounting      Available           
+1234 Jessica         Strong          IT              Available           
+1945 Maria           Gilligan        Administration  Available           
+2334 James           Bush            Sales           CarShoppe           
+2478 Thomas          Sterling        Accounting      Available           
+2870 Bonnie          Jones           Sales           Available           
+3567 Don             Hernandez       IT              Available           
+3987 Nancy           Clyburn         Administration  Available           
+3988 Jerry           Johnson         Sales           Available           
+4067 Jack            Patel           Sales           Available           
+4100 Jill            Brothers        IT              TaxPros             
+5678 Alice           Chang           Administration  Available           
+5912 Alex            Smothers        IT              Available           
+6754 Bob             Lucas           Sales           CarShoppe           
+7145 Margaret        Sutton          Sales           Available           
+8097 Lisa            Dominguez       Marketing       Available           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+9665 Jenny           Chavez          Administration  Available           
+9873 Mary            Chavez          IT              Available           
+
+cmd> list assignment CarShoppe
+ID   First Name      Last Name       Skill           Assignment
+2334 James           Bush            Sales           CarShoppe           
+6754 Bob             Lucas           Sales           CarShoppe           
+
+cmd> quit

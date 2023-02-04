@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(251, 242, 242);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+main img {
+    height: 200px;
+    margin: 20px;
+}

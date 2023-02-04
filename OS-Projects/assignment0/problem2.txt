@@ -1,0 +1,5 @@
+Homework 0 Problem 2 Answers:
+
+(a) Temporal locality is used in caching and is based on the idea that a program will be most likely to access data that it has accessed recently. In contrast, spatial locality uses the idea that the program will also be more likely to access data that is near what it has accessed recently. The example code snippet exhibits spatial locality, because it is accessing each index of an array, which is a contiguous block of memory.
+
+(b) Interrupts and traps are essential to modern operating system design because they allow the OS to switch from user mode to kernel mode using dual-mode operation. Any privileged instructions are dependent on interrupts and traps to allow the operating system to perform system functionalities, such as I/O (in the case of interupts) or responding to a program that tries to do things like divide by zero or access things it shouldn't (in the case traps).

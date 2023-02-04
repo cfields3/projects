@@ -1,0 +1,7 @@
+cmd> list skill Marketing
+ID   First Name      Last Name       Skill           Assignment
+8097 Lisa            Dominguez       Marketing       Available           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+
+cmd> quit

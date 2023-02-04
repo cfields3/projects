@@ -1,0 +1,9 @@
+Homework 0 Problem 1 Answers:
+
+(a) The distinction between two and three parameters is determined by whether or not the third "mode" parameter is included, as used for permissions when creating the file - such as 0_RDONLY, 0_WRONLY, or 0_RDWR. This is only needed when you are creating a new file, so the operating system will expect three parameters when creating a new file while expecting only two parameters when reading/writing an existing file.
+
+(b) When you call the read() system call, you can tell if it encounters some type of error because it will return a value of -1. In contrast, if end-of-file is reached, the system call will return a positive value representing the number of bits that it was able to successfully read. As a result, you can tell the difference through whether the return value is -1 or not.
+
+(c) If the fork() system call fails, you can tell because it will return -1 and will set errno appropriately describing this error. You could tell if the fork() call failed specicially because there are already too many processes by checking contents of errno for a description related to having too many processes (or possibly not enough memory).
+
+(d) The return value of the wait() system call will be the process ID of the terminated child (or -1 if there is an error). Observing this return value will allow you to tell which child terminated (by process ID).

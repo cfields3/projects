@@ -1,0 +1,10 @@
+cmd> list
+ID   First Name      Last Name       Skill           Assignment
+1234 Jessica         Strong          IT              Available           
+2334 James           Bush            Sales           Available           
+2478 Thomas          Sterling        Accounting      Available           
+3567 Don             Hernandez       IT              Available           
+5678 Alice           Chang           Administration  Available           
+9012 Mike            Nguyen          Marketing       Available           
+
+cmd> quit

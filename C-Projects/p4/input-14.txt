@@ -1,0 +1,7 @@
+list skill Marketing
+list3
+assign 3498
+unassign 1234
+assign 8097 MaxPros
+assign 8097 Telex
+quit

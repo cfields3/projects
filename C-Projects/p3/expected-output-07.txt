@@ -1,0 +1,17 @@
+au[32md[0mi[33mo[0m
+calms
+p[33me[0mrky
+[33md[32mo[0mz[32me[0mn
+Invalid guess
+c[32moded[0m
+Solved in 6 guesses
+ 1  :    0
+ 2  :    0
+ 3  :    0
+ 4  :    0
+ 5  :    0
+ 6  :    1
+ 7  :    0
+ 8  :    0
+ 9  :    0
+10+ :    0

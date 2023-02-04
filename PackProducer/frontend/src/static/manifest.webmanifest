@@ -1,0 +1,17 @@
+{
+  "name": "Pack Producer",
+  "description": "Help connect people with each other to attend events together.",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "en-US",
+  "theme_color": "#000000",
+  "background_color": "#cc0000",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/img/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+cmd> list skill Marketing
+ID   First Name      Last Name       Skill           Assignment
+8097 Lisa            Dominguez       Marketing       Available           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+
+cmd> list3
+Invalid command
+
+cmd> assign 3498
+Invalid command
+
+cmd> unassign 1234
+Invalid command
+
+cmd> assign 8097 MaxPros
+
+cmd> assign 8097 Telex
+Invalid command
+
+cmd> quit

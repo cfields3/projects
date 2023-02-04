@@ -1,0 +1,53 @@
+.contact {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.contact:hover {
+    color: #CC0000;
+    background-color: #eb000028;
+}
+
+.contact img {
+    margin: 10px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80vw;
+    max-width: 600px;
+    margin: 25px;
+    height: 70vh;
+    overflow: scroll;
+    -ms-overflow-style: none; /* For IE and Edge */
+    scrollbar-width: none; /* For Firefox */
+}
+
+/* For Chrome, Safari and Opera */
+#contacts::-webkit-scrollbar {
+    display: none;
+  }
+
+.name {
+    font-weight: bold;
+    margin: 0px; 
+}
+
+.message-preview {
+    margin: 0px;
+}
+
+.no-info-alert {
+    padding-top: 24vh;
+    text-align: center;
+}

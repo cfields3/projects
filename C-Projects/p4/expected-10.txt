@@ -1,0 +1,23 @@
+cmd> list skill teacher
+ID   First Name      Last Name       Skill           Assignment
+1188 Janelle         Whitney         teacher         Available           
+2181 Leta            Irwin           teacher         Available           
+2665 Zenaida         Serrano         teacher         Available           
+3207 Mei             Dougherty       teacher         Available           
+3944 Barry           Prince          teacher         Available           
+4096 Marcela         Nolan           teacher         Available           
+5132 Rosanne         Frank           teacher         Available           
+5576 Percy           Durham          teacher         Available           
+6384 Marlon          Griffin         teacher         Available           
+6878 Jose            Whitehead       teacher         Available           
+6956 Flora           Crane           teacher         Available           
+7257 Mckinley        Schmitt         teacher         Available           
+7467 Karie           Blackburn       teacher         Available           
+7812 Olin            Phillips        teacher         Available           
+8239 Reba            May             teacher         Available           
+8492 Kathie          Grimes          teacher         Available           
+9225 Tomeka          Henry           teacher         Available           
+9496 Silvia          Sellers         teacher         Available           
+9719 Frances         Weaver          teacher         Available           
+
+cmd> quit

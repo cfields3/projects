@@ -1,0 +1,14 @@
+Assignment 1 Problem 2 Answers:
+Christopher Fields
+
+(a) When performing a context switch between two different processes, there are many steps that must occur to ensure proper switching between the first process to the second. First, in order to start a context switch, there must be an interrupt from a hardware device - for example, I/O. During this stage, the CPU saves its state, switches to kernel mode, and jumps to the interrupt handler. At this point, the Operating System must make the scheduling decision to run the second process instead. If it does, it saves a copy of the CPU registers and program counter for the first process, sets memory bounds for the second process, and restores the CPU registers and program counter for the second program. Finally, the OS returns from interrupt in the second process, which would now be in the same state it was left in if it had been running previously.
+
+(b) In contrast, performing a context switch between two different threads is simplified significantly (and is a lot cheaper) within a single process, as you do not have to worry as much about memory protection and might not even need to switch to kernel mode. Context switching between threads can be caused by either asynchronous evens (like interrupts) or synchronous events (like blocking system calls). When using kernel-level threads, the kernel maintains a Thread Control Block for each thread, independently scheduling threads within a single process. In contrast, user-level threads are controlled by user-space code, typically through a reusable library without any help from the kernel (controlling things like CPU time and thread state).
+
+(c) Possible Interleavings:
+  - ABCD
+  - ACDB
+  - ACBD
+  - CDAB
+  - CABD
+  - CADB

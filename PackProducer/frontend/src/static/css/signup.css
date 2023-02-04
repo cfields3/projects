@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+.signup-information {
+    border: 2px dashed black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input p {
+    margin-bottom: 5px;
+}
+
+.input {
+    margin: 15px;
+}
+
+#avatar-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avatar-submit p {
+    padding-right: 65px;
+    margin-bottom: 5px;
+}
+
+#avatar-input {
+    padding-left: 100px;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}

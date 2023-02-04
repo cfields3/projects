@@ -1,0 +1,46 @@
+cmd> assign 0337 TaxPros
+
+cmd> assign 2335 GardenShop
+Invalid command
+
+cmd> assign 1234 TaxPros
+
+cmd> assign 1945 MaxRealty
+
+cmd> assign 9012 FurnitureMarket
+
+cmd> assign 2334 FoodGiant
+
+cmd> assign 8097 MaxRealty
+
+cmd> unassign 1234
+
+cmd> unassign 9012
+
+cmd> unassign 2335
+Invalid command
+
+cmd> list
+ID   First Name      Last Name       Skill           Assignment
+0165 Phillip         Sanders         Accounting      Available           
+0337 Timothy         Donnelly        Accounting      TaxPros             
+1234 Jessica         Strong          IT              Available           
+1945 Maria           Gilligan        Administration  MaxRealty           
+2334 James           Bush            Sales           FoodGiant           
+2870 Bonnie          Jones           Sales           Available           
+3567 Don             Hernandez       IT              Available           
+3987 Nancy           Clyburn         Administration  Available           
+3988 Jerry           Johnson         Sales           Available           
+4067 Jack            Patel           Sales           Available           
+4100 Jill            Brothers        IT              Available           
+5678 Alice           Chang           Administration  Available           
+5912 Alex            Smothers        IT              Available           
+6754 Bob             Lucas           Sales           Available           
+7145 Margaret        Sutton          Sales           Available           
+8097 Lisa            Dominguez       Marketing       MaxRealty           
+8564 Mark            Thompson        Marketing       Available           
+9012 Mike            Nguyen          Marketing       Available           
+9665 Jenny           Chavez          Administration  Available           
+9873 Mary            Chavez          IT              Available           
+
+cmd> quit

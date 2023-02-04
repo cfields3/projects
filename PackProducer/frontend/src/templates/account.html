@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/account.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <script src="/js/base.js" type="module"></script>
+  <script src="/js/account.js" type="module"></script>
+  <meta name="theme-color" content="#cc0000">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <title>Account - Pack Producer</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-centered">
+      <a href="/">Pack Producer</a>
+    </div>
+
+    <a href="/post">Post</a>
+    <a href="/explore">Explore</a>
+    <a href="/message">Message</a>
+
+    <div class="nav-right">
+      <a id="user-info" href="/account"></a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Account Information</h1>
+
+    <div id="account-info">
+      <img id="avatar">
+
+      <p><b>Account Name: </b><span id="name"></span></p>
+      <p><b>Username: </b><span id="username"></span></p>
+      <p><b>Email: </b><span id="email"></span></p>
+      <p><b>Location: </b><span id="location"></span></p>
+
+      <button id="edit-button">Edit Account Information</button>
+
+      <div id="edit-account" hidden>
+        <h3>Edit Account</h3>
+        
+        <p>New Information</p>
+        <input id="edit-firstname" placeholder="First Name">
+        <input id="edit-lastname" placeholder="Last Name">
+        <input id="edit-username" placeholder="Username">
+        <input id="edit-email" placeholder="Email">
+        <input id="edit-location" placeholder="Location">
+
+        <button id="submit-edit">Submit</button>
+      </div>
+
+      <button id="logout-button">Log Out</button>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+slice
+yield
+juice
+troop
+state
+float
+scene
+shine
+alive
+cover

@@ -1,0 +1,6 @@
+[32maaa[0maa
+[33mb[32maa[33ma[0ma
+[33mbb[32ma[33maa[0m
+[32maa[0mb[32mbb[0m
+[32ma[33mb[0mb[33ma[32mb[0m
+The word was "aaabb"

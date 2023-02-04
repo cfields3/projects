@@ -1,0 +1,80 @@
+main {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    background-image: url('/img/wolf-head.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 40%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.login-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh;
+}
+
+.login-info input {
+    margin: 7px;
+}
+
+.login-info form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh;
+}
+
+#login-button, #signup-button {
+    background-color: #CC0000;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#login-button:hover {
+    background-color: #EE0000;
+}
+
+#error-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.error-display {
+    text-align: center;
+    background-color: rgba(235, 77, 77, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 40%;
+    padding: 20px;
+}
+
+.link {
+    color: #CC0000;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #EE0000;
+}
+
+#avatar-input {
+    margin-left: 120px;
+}

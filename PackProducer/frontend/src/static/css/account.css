@@ -1,0 +1,61 @@
+#account-info {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 60%;
+    margin: 25px 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#account-info img {
+    height: 100px;
+    border: 3px solid #ab0000;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#account-info p {
+    font-size: 1.5vw;
+}
+
+#account-info button {
+    margin: 10px;
+}
+
+#edit-account {
+    border: 1px dashed black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#edit-account input {
+    margin: 7px;
+    width: 80%;
+    max-width: 300px;
+}
+
+#edit-account p {
+    margin-bottom: 2px;
+}
+
+#name-edit {
+    display: flex;
+    flex-direction: row;
+}
+
+#logout-button, #edit-button {
+    font-size: 16pt;
+}
+
+@media only screen and (max-device-width : 1300px) {
+    #account-info p {
+        font-size: 14pt;
+    }
+}

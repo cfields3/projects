@@ -1,0 +1,22 @@
+[33msp[0mace
+event
+[32mp[0mri[32mm[0me
+b[33mu[0mrn[32ms[0m
+actor
+c[32ml[0mai[33mm[0m
+re[33mp[0me[33ml[0m
+b[32ml[0maze
+[33msp[0micy
+[33mu[0mrban
+[32mplum[0mb
+Solved in 12 guesses
+ 1  :   10
+ 2  :   10
+ 3  :   10
+ 4  :   10
+ 5  :   10
+ 6  :   10
+ 7  :   10
+ 8  :   10
+ 9  :   10
+10+ :   11

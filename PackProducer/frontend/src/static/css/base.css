@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+}
+
+button {
+  font-size: 14pt;
+  background-color: #CC0000;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #e10000
+}
+
+main {
+  padding: 25px;
+}
+
+main h1 {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  background-color: white;
+}
+
+nav {
+  position: relative;
+  background-image: linear-gradient(#CC0000, #ab0000);;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #db0101;
+  color: white;
+}
+
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.nav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 26pt;
+}
+
+.nav-right {
+  float: right;
+}
+
+nav img {
+  margin-left: 10px;
+  height: 22px;
+  border-radius: 20px;
+}
+
+.popup {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+  box-shadow: 3px 3px 10px 0px black;
+}
+
+.popup div {
+  margin-bottom: 5px;
+}
+
+.popup button {
+  margin: 3px 5px;
+  border: 0;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 775px) {
+  .nav-centered a {
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .nav-centered a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-centered a, .user-name {
+    display: none;
+  }
+}
+
+body {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+  background-image: url('/img/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 40%;
+  /* background-blend-mode: lighten; */
+}
+
+input, textarea {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px;
+}

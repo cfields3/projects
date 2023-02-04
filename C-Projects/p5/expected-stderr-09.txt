@@ -1,0 +1,1 @@
+usage: encode [-b] [-p] <input-file> <output-file>

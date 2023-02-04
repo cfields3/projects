@@ -1,0 +1,10 @@
+Assignment 1 Problem 1 Answers:
+Christopher Fields
+
+(a) In order to determine the size of a file using the stat() system call, you could simply enter the file you would like to request the size of as an argument and the command will display different options about the file, including a "Size" option that will give the total size of the file, in bytes. Alternatively, you could include the --format or -c argument to search for just the size of the file. For example if you wanted the size of file.txt, you could type either "stat --format=%s file.txt" or "stat -c=%s file.txt" and it would output the total size of the file, in bytes.
+
+(b) In order to open a file using a non-blocking interface, you can include the "O_ASYNC" flag in an open() system call to enable signal-driven I/O (this flag would be bitwise-or'd in the second parameter of open() with any other flags used for opening the file).
+
+(c) A process could determine how many times it has been in the running state by looking at the fields in the struct filled by getrusage() that are related to the number of times a process has context switched (after filling in that struct as the second parameter to getrusage() with RUSAGE_SELF as the first parameter to calculate information about the process currently running). The ru_nvcsw (number of times the process voluntarily context switched before its time slice has completed) and ru_nivcsw (number of times the process context switched due to a higher process becoming runnable to the current process exceeding its time slice). By adding these two fields (ru_nvcsw + ru_nivcsw), you are able to find the number of times the process transitioned out of the running state, which corresponds to the number of times that the process was in the running state before context-switching.
+
+(d) A program can tell that mq_receive() returned because of a signal rather than the arrival of a message because it will return a value of -1 and the value of errno will be set accordingly. In this case, because the call was interrupted by the signal handler, the error will be EINTR.
