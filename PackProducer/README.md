@@ -3,15 +3,6 @@
 
 ## Final Project Report
 
-  ### What works (features)
-  At this point, all major features of the PWA are functioning correctly. A user is able to authenticate using jwt, create posts, edit posts, delete posts, explore other posts, view account information, edit account information, message other users, view users' messages, and view a simplified dashboard of a user's recent messages and posts. This has all been implemented using responsive design, following a mobile-first design pattern with an updated user interface on the frontend from the previous milestone.
-
-  ### What doesn't work (known issues)
-  At the time of submission, it is known that the method of caching being used is not ideal for the PWA. It would be much more ideal to use Network-First Caching (we are currently using Cache-First), or some kind of blend between the two. This is because there is lots of dynamic content that should be updated on every network request, namely the messaging system. Due to time constraints and lack of group participation, this item was not completed.
-
-  ### Authentication and Authorization Process
-  The authentication process has been slightly modified from the previous milestone in order to allow a user to log in properly. There were a couple issues in the method of creating a jwt made in the last milestone, and I have shifted to using the jwt library to reduce error and this has resolved those issues. Like the last milestone, we have a TokenMiddleware that allows for authentication protection on most api endpoints, and ensures that only authenticated users are accessing those endpoints. Our middleware uses the HMAC-SHA256 algorithm. We are storing this data in a cookie, in which both this cookie and jwt expire after the same amount of time (for consistency, we do not desire any custom behavior here).
-
   ### List of Pages
   Page       | Route                              | Description/How to get there
   ---------- | ---------------------------------- | ---------
